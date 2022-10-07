@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white !important;
+}
+.table {
+  max-width: 100% !important;
+}
+#ac:hover {
+  background-color: red !important;
+  color: white !important;
+  font-size: 15px;
+  transition: 0.3s;
+}
+#bHistorial:hover {
+  background-color: rgb(255, 255, 3) !important;
+  color: gray !important;
+  font-size: 15px;
+  transition: 0.3s;
+}
+#borrar:hover {
+  background-color: aqua !important;
+  color: gray !important;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.boton2 {
+  width: 100px;
+  height: 50px;
+  background-color: white !important;
+  color: gray !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.limpiar {
+  display: flex;
+  justify-content: space-around;
+  height: 10%;
+}
+.result {
+  background-color: white;
+  height: 10%;
+  border-radius: 9px;
+  border: 1px solid;
+  align-items: center;
+  margin: 5px;
+  overflow: auto;
+  overflow: overlay;
+}
+.result::-webkit-scrollbar {
+  display: none;
+}
+
+.result:hover::-webkit-scrollbar {
+  display: initial;
+}
+
+.calculadora {
+  width: 500px !important;
+  padding: 10px;
+  height: 750px;
+  background-color: white !important;
+  border-radius: 10px;
+  border: 1px solid;
+  -webkit-box-shadow: -8px 15px 41px -12px rgba(5, 9, 240, 1);
+  -moz-box-shadow: -8px 15px 41px -12px rgba(5, 9, 240, 1);
+  box-shadow: -8px 15px 41px -12px rgba(5, 9, 240, 1);
+}
+
+.botones {
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton {
+  font-size: xx-large !important ;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: white !important;
+  border: 1px solid;
+  color: blue !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.boton:hover {
+  background-color: #1877f2 !important;
+  color: white !important;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.resultado {
+  display: flex;
+  height: 100% !important;
+  width: 100% !important;
+  border: none !important;
+  text-align: end;
+  text-decoration: solid;
+  font-size: xx-large !important;
+}
+
+.Example-btn2 {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  flex-grow: 1;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  height: 36px;
+  line-height: 20px;
+  margin-left: 8px;
+  margin-right: 6px;
+  min-width: 185px;
+  padding: 0 16px 0 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Example-btn2:hover {
+  background-color: #1877f2 !important;
+  color: #050505;
+  font-size: 15px;
+  transition: 0.3s;
+}
